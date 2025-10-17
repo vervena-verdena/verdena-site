@@ -575,7 +575,7 @@ header .fa-bars{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 600px){
   .home {
     padding: 30px 0;
     background-position: center;
@@ -620,6 +620,15 @@ header .fa-bars{
         font-size: 13px;
 
     }
+
+    .custom-select {
+      max-width: 100%;
+      padding: 25px 25px; 
+      background-position: right 1rem center;
+      background-size: 0.9rem;
+      font-size: 17px;
+    }
+
     .products-container {
       grid-template-columns: 1fr;
       grid-gap: 20px;
@@ -627,7 +636,9 @@ header .fa-bars{
   
     .products-box-img {
       max-height: 300px;
-      padding: 15px;
+      max-width: 90%;
+      padding: 8px;
+      margin: 0 auto;
     }
   
     .products-box-text .products-text-title {
@@ -642,6 +653,42 @@ header .fa-bars{
       font-size: 14px;
       padding: 0.5rem 0.75rem;
       background-position: right 0.75rem center;
+    }
+    .faq-section {
+      margin: 30px 15px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    }
+  
+    .faq-title {
+      font-size: 22px;       
+      margin-bottom: 35px;
+    }
+  
+    .faq-question {
+      font-size: 15px;    
+      padding: 12px 14px;    
+      border-radius: 6px;
+    }
+  
+    .faq-answer {
+      font-size: 13px;
+      padding: 10px 14px;
+      line-height: 1.5;
+    }
+  
+    .icon {
+      font-size: 1.4rem;
+    }
+  
+    .faq-item {
+      margin-bottom: 10px;
+    }
+  
+    
+    .faq-item:nth-child(n) .faq-question {
+      background: #8fa98c;   
     }
   }
 
