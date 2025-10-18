@@ -78,6 +78,7 @@ header .icons a{
 
 header #toggler{
     display:none;
+    color: #86A180;
 }
 header .fa-bars{
     font-size: 15px;
